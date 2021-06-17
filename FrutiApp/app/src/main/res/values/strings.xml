@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Fruti Calculadora</string>
+    <string name="txt_nombre">¿Cuál es tu nombre?</string>
+    <string name="btn_jugar">A Jugar!</string>
+    <string name="txt_jugador">Jugador: </string>
+    <string name="txt_puntuacion">Puntuación: 0</string>
+    <string name="txt_vidas">Manzanas: </string>
+    <string name="txt_respuesta">Respuesta</string>
+    <string name="btn_comprobar">Comprobar</string>
+</resources>

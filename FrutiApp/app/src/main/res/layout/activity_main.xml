@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/globos"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/img_personaje"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="85dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="-1dp"
+        app:srcCompat="@drawable/manzana" />
+
+    <EditText
+        android:id="@+id/txt_nombre"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="54dp"
+        android:layout_marginRight="59dp"
+        android:layout_marginBottom="261dp"
+        android:background="@drawable/fondoet"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/txt_nombre"
+        android:inputType="textPersonName"
+        android:maxLength="16"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="#FF5722"
+        android:textColorHint="#FF5722"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/btn_jugar"
+        android:layout_width="302dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="192dp"
+        android:background="@drawable/fondoet"
+        android:gravity="center"
+        android:onClick="jugar"
+        android:text="@string/btn_jugar"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txt_puntaje"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="13dp"
+        android:background="@drawable/fondoet"
+        android:contentDescription="@string/app_name"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="#FF5722"
+        android:textSize="18sp" />
+
+</RelativeLayout>

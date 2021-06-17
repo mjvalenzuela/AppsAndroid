@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaperprincipal"
+    tools:context=".PlayActivity6">
+
+    <TextView
+        android:id="@+id/txt_puntuacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="56dp"
+        android:contentDescription="@string/app_name"
+        android:text="@string/txt_puntuacion"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txt_vidas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="85dp"
+        android:contentDescription="@string/app_name"
+        android:text="@string/txt_vidas"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txt_jugador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="27dp"
+        android:contentDescription="@string/app_name"
+        android:text="@string/txt_jugador"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/img_num2"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="275dp"
+        android:layout_marginLeft="275dp"
+        android:layout_marginTop="156dp"
+        app:srcCompat="@drawable/cero" />
+
+    <ImageView
+        android:id="@+id/img_num1"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="155dp"
+        app:srcCompat="@drawable/cero" />
+
+    <EditText
+        android:id="@+id/txt_respuesta"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_signo"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="128dp"
+        android:layout_marginLeft="128dp"
+        android:layout_marginTop="29dp"
+        android:gravity="center"
+        android:hint="@string/txt_respuesta"
+        android:inputType="number"
+        android:textColorHighlight="#FF9800"
+        android:textColorLink="#FF9800"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_comprobar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_num2"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="31dp"
+        android:layout_toEndOf="@+id/txt_respuesta"
+        android:layout_toRightOf="@+id/txt_respuesta"
+        android:gravity="center"
+        android:onClick="comprobar"
+        android:text="@string/btn_comprobar" />
+
+    <ImageView
+        android:id="@+id/img_signo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="156dp"
+        android:contentDescription="@string/app_name"
+        app:srcCompat="@drawable/multiplicacion" />
+
+    <ImageView
+        android:id="@+id/img_vidas"
+        android:layout_width="80dp"
+        android:layout_height="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="85dp"
+        android:layout_toEndOf="@+id/txt_vidas"
+        android:layout_toRightOf="@+id/txt_vidas"
+        android:contentDescription="@string/app_name"
+        app:srcCompat="@drawable/tresvidas" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+        android:text="Nivel 6"
+        android:textColor="#FF9800"
+        android:textSize="30sp" />
+</RelativeLayout>
